@@ -1,10 +1,10 @@
-# Avaliação Técnica
+# Avaliação Técnica em Engenharia de Qualidade
 
 ## Objetivo
 
-Esta avaliação tem como objetivo medir as habilidades e conhecimentos do(a) candidato(a) à vaga de QA Pleno, com foco em testes de caixa preta, criação de cenários de teste e automação em ambiente controlado.
+Esta avaliação tem como objetivo medir as habilidades e conhecimentos do(a) candidato(a) à vaga no time de Engenharia de Qualidade, com foco em testes de caixa preta, criação de cenários de teste e automação em ambiente controlado.
 
-Este desafio simula um ambiente real, mas com liberdade para que você demonstre suas decisões técnicas. Como QA Pleno, esperamos que você:
+Este desafio simula um ambiente real, mas com liberdade para que você demonstre suas decisões técnicas. Esperamos que você:
 
 - Defina a prioridade dos cenários de teste com base na análise de risco.
 - Escolha o nível ideal de profundidade para a automação, equilibrando cobertura e robustez.
@@ -14,7 +14,7 @@ Não existe uma única “resposta certa” — o que queremos avaliar é seu ra
 
 ## Contexto
 
-Nosso time de desenvolvimento precisa da criação de um plano de testes para validar as funcionalidades publicadas no ambiente de testes.
+Nosso time de engenharia precisa da criação de um plano de testes para validar as funcionalidades publicadas no ambiente de testes.
 
 (O acesso será fornecido com um usuário, e a senha temporária será enviada para o e-mail informado pelo participante do processo.)
 
@@ -118,12 +118,11 @@ README.md                 # Arquivo principal com instruções gerais sobre o pr
 
 ### Requisitos para entrega:
 
-1. Crie um repositório **público** no GitHub contendo todos os arquivos e scripts desenvolvidos durante a avaliação.
+1. Crie um repositório **público** no seu GitHub contendo todos os arquivos e scripts desenvolvidos durante a avaliação.
 2. Inclua um `README.md` com **instruções claras e objetivas sobre como executar o projeto**.
-3. O prazo para entrega é de **X dias corridos** a partir do recebimento desta avaliação.
+3. O prazo para entrega é de **3 dias corridos** a partir do recebimento desta avaliação.
 
 > Caso não consiga concluir todas as etapas dentro do prazo, envie o que tiver finalizado até então — seu progresso será considerado na avaliação.
-> 
 
 ---
 
@@ -146,6 +145,7 @@ A seguir, estão listadas as regras obrigatórias para a entrega e execução da
     - Ausência de `README.md`
     - Arquivos nomeados fora do padrão estabelecido
     - Estrutura de pastas divergente das orientações
+  
 4. **Automação entregue deve estar funcional.**
     
     O projeto deve ser capaz de rodar integralmente sem erros de configuração, dependências ou execução.
@@ -165,6 +165,9 @@ A seguir, estão listadas as regras obrigatórias para a entrega e execução da
     - Casos de Teste
     - Relatório de Bug
     - Proposta de Melhoria
+
 8. **A ausência de evidências que comprovem a execução dos testes, ou outras inconsistências relevantes, poderá resultar em desclassificação.**
+
 ---
+
 **Boa sorte!**
