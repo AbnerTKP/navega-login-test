@@ -40,6 +40,27 @@ qa-engineer-test/
 ├── package.json           # Dependências e scripts
 └── README.md              # Este arquivo
 ```
+---
+
+## 🔐 Uso de Variáveis de Ambiente
+
+Para garantir a segurança e organização dos testes automatizados, este projeto utiliza o arquivo `cypress.env.json` para armazenar dados sensíveis, como e-mails e senhas utilizados nos testes. Essa prática evita o hardcode de credenciais diretamente nos testes e facilita a manutenção dos dados de teste.
+
+### 🧪 Exemplo de estrutura (não contém dados reais):
+
+```json
+{
+  "validEmail": "seu-email@dominio.com",
+  "validPassword": "suaSenhaSegura!",
+  "invalidEmail": "email-invalido@teste.com",
+  "invalidPassword": "senhaErrada",
+  "uppercaseEmail": "SEU-EMAIL@DOMINIO.COM",
+  "uppercasePassword": "SenhaComLetrasMaiusculas!",
+  "specialPassword": "Senha@#*123"
+}
+```
+
+### ⚠️ Importante: não versionar esse arquivo no repositório público. O mesmo já está incluído no .gitignore para evitar o upload acidental ao GitHub.
 
 ---
 
