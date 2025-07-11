@@ -4,19 +4,18 @@ class LoginPage {
     }
 
     fillEmail(email) {
-        cy.get('[data-test="username"]').type(email);
+        cy.get('[data-test="username"]')
+            .type(email);
     }
 
     fillPassword(password) {
-        cy.get('[data-test="password"]').type(password);
-    }
-
-    fillPassword(password) {
-        cy.get('[data-test="password"]').type(password).type('{enter}');
+        cy.get('[data-test="password"]')
+            .type(password);
     }
 
     submit() {
-        cy.get('[data-test="submit"]').click();
+        cy.get('[data-test="submit"]')
+            .click();
     }
 }
 
