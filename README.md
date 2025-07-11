@@ -150,7 +150,7 @@ Todos os cenários estão documentados utilizando a estrutura **Gherkin**, organ
 - Comportamentos esperados e limites (positivos e negativos)
 - Validações visuais e lógicas
 
-📄 Ver: `/test-cases/template.md`
+📄 Ver: `/test-cases/testcases.md`
 
 ---
 
@@ -172,7 +172,7 @@ A automação cobre o fluxo de login com validações de:
 > **Título:** Campo de e-mail permite espaços em branco antes/depois  
 > **Impacto:** Permite entrada inválida sem aviso, pode afetar autenticação e rastreabilidade de dados.
 
-📁 Detalhes: `/bugs/template.md`  
+📁 Detalhes: `/bugs/bug-report.md`  
 📸 Evidência: `bug-espaco-email.png`
 
 ---
@@ -182,7 +182,7 @@ A automação cobre o fluxo de login com validações de:
 > **Título:** Modal de login desalinhado em dispositivos móveis com telas pequenas (ex: iPhone SE)  
 > **Impacto:** Layout compromete a experiência mobile; logomarca sobrepõe conteúdo.
 
-📁 Detalhes: `/improvements/template.md`  
+📁 Detalhes: `/improvements/improvment.md`  
 📸 Evidência: `login-modal-responsividade.png`
 
 ---
