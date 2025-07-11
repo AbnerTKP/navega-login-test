@@ -68,7 +68,8 @@ Funcionalidade: Login
 Cenário: Este caso de teste verifica o comportamento do sistema ao executar o cenário: Login com e-mail válido e senha vazia.
 ```
 Given que o usuário está na tela de login
-When ele insere dados inválidos nos campos de login
+When ele insere Email
+And nao insere senha
 And ele clica no botão 'Acessar'
 Then O campo de senha fica com as bordas vermelhas, nenhuma requisição é feita
 ```
@@ -81,7 +82,8 @@ Funcionalidade: Login
 Cenário: Este caso de teste verifica o comportamento do sistema ao executar o cenário: Login com e-mail vazio e senha preenchida.
 ```
 Given que o usuário está na tela de login
-When ele insere dados inválidos nos campos de login
+When não insere email
+And insere senha
 And ele clica no botão 'Acessar'
 Then O campo de email fica com as bordas vermelhas, nenhuma requisição é feita
 ```
@@ -110,8 +112,7 @@ Cenário: Este caso de teste verifica o comportamento do sistema ao executar o c
 Given que o usuário está na tela de login
 When ele preenche o campo de e-mail com um e-mail válido
 And ele preenche o campo de senha com uma senha válida
-And ele clica no botão 'Acessar'
-Then o sistema deve redirecionar o usuário para a área logada
+Then o campo de senha oculta os caracteres digitados
 ```
 
 
@@ -250,11 +251,11 @@ Funcionalidade: Login
 
 Cenário: Este caso de teste verifica o comportamento do sistema ao executar o cenário: Responsividade da tela.
 ```
-Given que o usuário está na tela de login
+Given que o usuário está na tela de login com um celular
 When ele preenche o campo de e-mail com um e-mail válido
 And ele preenche o campo de senha com uma senha válida
 And ele clica no botão 'Acessar'
-Then o sistema deve redirecionar o usuário para a área logada
+Then o sistema deve redirecionar o usuário para a área logada sem problemas pelo mobile
 ```
 
 
@@ -268,7 +269,7 @@ Given que o usuário está na tela de login
 When ele preenche o campo de e-mail com um e-mail válido
 And ele preenche o campo de senha com uma senha válida
 And ele clica no botão 'Acessar'
-Then o sistema deve redirecionar o usuário para a área logada
+Then deve aparecer um loading indicando que a requisição foi feita
 ```
 
 
