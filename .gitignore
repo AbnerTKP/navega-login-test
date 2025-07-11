@@ -4,3 +4,6 @@ node_modules/
 # Cypress screenshots and videos
 cypress/screenshots/
 cypress/videos/
+
+# Arquivo das variáveis de ambiente e senhas
+cypress.env.json
