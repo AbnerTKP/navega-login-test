@@ -179,11 +179,11 @@ A automação cobre o fluxo de login com validações de:
 
 ## 💡 Melhoria Proposta
 
-> **Título:** Modal de login desalinhado em dispositivos móveis com telas pequenas (ex: iPhone SE)  
-> **Impacto:** Layout compromete a experiência mobile; logomarca sobrepõe conteúdo.
+> **Título:** Falta de feedback visual ao tentar fazer login  
+> **Impacto:** Usuário não tem indicação de carregamento; pode achar que o clique falhou e repetir a ação. Prejudica a experiência, gera retrabalho no backend e passa sensação de sistema travado.
 
-📁 Detalhes: `/improvements/improvment.md`  
-📸 Evidência: `login-modal-responsividade.png`
+📄 **Detalhes:** `/improvements/improvement.md`  
+🖼️ **Evidência:** `login-modal-carregamento.png`
 
 ---
 
